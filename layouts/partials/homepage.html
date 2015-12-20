@@ -11,10 +11,12 @@
     {{ end }}
   </div>
 
+{{ with .Site.Taxonomies.categories }}
+
   <h1 class="headline">Categories</h1>
 
   <section class="categories">
-    {{ range $name, $value := .Site.Taxonomies.categories }}
+    {{ range $name, $value := . }}
     <h2 class="category">
       <a href="{{ $baseurl }}categories/{{ $name | urlize }}">{{ title $name }}</a>
       <small>({{ .Count }})</small>
@@ -22,15 +24,21 @@
     {{ end }}
   </section>
 
+{{ end }}
+
+{{ with .Site.Taxonomies.tags }}
+
   <h1 class="headline">Tags</h1>
 
   <section class="tags">
-    {{ range $name, $value := .Site.Taxonomies.tags }}
+    {{ range $name, $value := . }}
     <span class="tag">
       <a href="{{ $baseurl }}tags/{{ $name | urlize }}">{{ $name }}</a>
       <small>({{ .Count }})</small>
     </span>
     {{ end }}
   </section>
+
+{{ end }}
 
 </main>
