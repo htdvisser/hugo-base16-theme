@@ -1,8 +1,9 @@
+{{ $dateMissing := eq .Date.Year 1}}
 </div>
 
 <footer>
   <div class="container">
-    <span class="copyright">&copy; {{ if eq .Title .Site.Title }}{{ .Site.LastChange.Format "2006" }}{{ else }}{{ .Date.Format "2006" }} {{ end }} {{ .Site.Title }} - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="copyright">&copy; {{ if eq $dateMissing true }}{{ .Site.LastChange.Format "2006" }}{{ else }}{{ .Date.Format "2006" }} {{ end }} {{ .Site.Title }} - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
   </div>
 </footer>
 
