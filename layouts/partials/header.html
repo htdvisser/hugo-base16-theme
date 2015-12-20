@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="description" content="{{ if eq .Description "" }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
-<meta name="keywords" content="{{ .Keywords }}">
+<meta name="keywords" content="{{ delimit .Keywords  "," }}">
 <meta name="author" content="{{ .Site.Params.author }}">
 {{ .Hugo.Generator }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
