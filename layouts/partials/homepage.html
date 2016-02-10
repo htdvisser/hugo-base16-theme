@@ -6,7 +6,7 @@
   <h1 class="headline">Recent Posts</h1>
 
   <div class="article-list">
-    {{ range first 3 .Data.Pages }}
+    {{ range first 3 (where .Data.Pages "Section" "post") }}
       {{ partial "article-list-item.html" . }}
     {{ end }}
   </div>
