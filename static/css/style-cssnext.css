@@ -36,7 +36,6 @@
 .base0e { color: var(--base0e); }
 .base0f { color: var(--base0f); }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700);
 @custom-media --breakpoint-md (max-width: 52em);
 
 /* General Page Layout */
