@@ -38,6 +38,14 @@ body {
   margin-right: auto;
 }
 
+div.right {
+  float:right;
+}
+
+div.clearfix {
+  overflow: auto;
+}
+
 @media (max-width: 52em) {
   .container {
     width: 100%;
