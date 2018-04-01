@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo Base16 Theme</title>
+    <link>https://htdvisser.github.io/hugo-base16-theme/categories/</link>
+    <description>Recent content in Categories on Hugo Base16 Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
+    
+	<atom:link href="https://htdvisser.github.io/hugo-base16-theme/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development</title>
+      <link>https://htdvisser.github.io/hugo-base16-theme/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://htdvisser.github.io/hugo-base16-theme/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://htdvisser.github.io/hugo-base16-theme/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://htdvisser.github.io/hugo-base16-theme/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

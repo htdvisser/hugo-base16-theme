@@ -5,7 +5,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.15" />
+<meta name="generator" content="Hugo 0.37.1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://htdvisser.github.io/hugo-base16-theme/css/style.css" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
@@ -15,9 +15,12 @@
 <body>
 
 <header>
-  <div class="container">
+  <div class="container clearfix">
     <a class="path" href="https://htdvisser.github.io/hugo-base16-theme/">[Hugo Base16 Theme]</a>
     <span class="caret"># _</span>
+    <div class="right">
+      
+    </div>
   </div>
 </header>
 
@@ -74,7 +77,7 @@ similarities in go templates.</p>
 <p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>
 provide more details.</p>
 
-<h2 id="introduction-to-go-templates:4d30d99f79bd431d57546bbed04b7347">Introduction to Go Templates</h2>
+<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
 
 <p>Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
@@ -84,7 +87,7 @@ One consequence of this simplicity is that go templates parse very quickly.</p>
 content will be sanitized depending on the context of where they are used. More
 details can be found in the <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>.</p>
 
-<h2 id="basic-syntax:4d30d99f79bd431d57546bbed04b7347">Basic Syntax</h2>
+<h2 id="basic-syntax">Basic Syntax</h2>
 
 <p>Go lang templates are html files with the addition of variables and
 functions.</p>
@@ -115,7 +118,7 @@ functions.</p>
 <pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
 </code></pre>
 
-<h2 id="variables:4d30d99f79bd431d57546bbed04b7347">Variables</h2>
+<h2 id="variables">Variables</h2>
 
 <p>Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
@@ -133,7 +136,7 @@ page you are rendering. More details are available on the
 {{ $address }}
 </code></pre>
 
-<h2 id="functions:4d30d99f79bd431d57546bbed04b7347">Functions</h2>
+<h2 id="functions">Functions</h2>
 
 <p>Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
@@ -148,7 +151,7 @@ functions cannot be added without recompiling hugo.</p>
 <pre><code>{{ add 1 2 }}
 </code></pre>
 
-<h2 id="includes:4d30d99f79bd431d57546bbed04b7347">Includes</h2>
+<h2 id="includes">Includes</h2>
 
 <p>When including another template you will pass to it the data it will be
 able to access. To pass along the current context please remember to
@@ -160,11 +163,11 @@ the /layout/ directory within Hugo.</p>
 <pre><code>{{ template &quot;chrome/header.html&quot; . }}
 </code></pre>
 
-<h2 id="logic:4d30d99f79bd431d57546bbed04b7347">Logic</h2>
+<h2 id="logic">Logic</h2>
 
 <p>Go templates provide the most basic iteration and conditional logic.</p>
 
-<h3 id="iteration:4d30d99f79bd431d57546bbed04b7347">Iteration</h3>
+<h3 id="iteration">Iteration</h3>
 
 <p>Just like in go, the go templates make heavy use of range to iterate over
 a map, array or slice. The following are different examples of how to use
@@ -192,7 +195,7 @@ range.</p>
 {{ end }}
 </code></pre>
 
-<h3 id="conditionals:4d30d99f79bd431d57546bbed04b7347">Conditionals</h3>
+<h3 id="conditionals">Conditionals</h3>
 
 <p>If, else, with, or, &amp; and provide the framework for handling conditional
 logic in Go Templates. Like range, each statement is closed with <code>end</code>.</p>
@@ -244,7 +247,7 @@ and skips the block if the variable is absent.</p>
 {{ end }}
 </code></pre>
 
-<h2 id="pipes:4d30d99f79bd431d57546bbed04b7347">Pipes</h2>
+<h2 id="pipes">Pipes</h2>
 
 <p>One of the most powerful components of go templates is the ability to
 stack actions one after another. This is done by using pipes. Borrowed
@@ -292,7 +295,7 @@ Stuff Here
 {{ end }}
 </code></pre>
 
-<h2 id="context-aka-the-dot:4d30d99f79bd431d57546bbed04b7347">Context (aka. the dot)</h2>
+<h2 id="context-aka-the-dot">Context (aka. the dot)</h2>
 
 <p>The most easily overlooked concept to understand about go templates is that {{ . }}
 always refers to the current context. In the top level of your template this
@@ -314,7 +317,7 @@ instead of depending on the context.</p>
 have defined a variable outside of the loop so we have access to it from within
 the loop.</p>
 
-<h1 id="hugo-parameters:4d30d99f79bd431d57546bbed04b7347">Hugo Parameters</h1>
+<h1 id="hugo-parameters">Hugo Parameters</h1>
 
 <p>Hugo provides the option of passing values to the template language
 through the site configuration (for sitewide values), or through the meta
@@ -322,7 +325,7 @@ data of each specific piece of content. You can define any values of any
 type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 
-<h2 id="using-content-page-parameters:4d30d99f79bd431d57546bbed04b7347">Using Content (page) Parameters</h2>
+<h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 
 <p>In each piece of content you can provide variables to be used by the
 templates. This happens in the <a href="https://htdvisser.github.io/hugo-base16-theme/content/front-matter">front matter</a>.</p>
@@ -354,7 +357,7 @@ notoc: true
   {{ end }}
 </code></pre>
 
-<h2 id="using-site-config-parameters:4d30d99f79bd431d57546bbed04b7347">Using Site (config) Parameters</h2>
+<h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
 
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
