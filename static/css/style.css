@@ -315,6 +315,10 @@ article.single section.body a { color: #d27b53; }
 
 /* Article Elements */
 
+article.single * {
+  max-width: 100%;
+}
+
 article.single pre {
   margin-top: 0;
   margin-bottom: 1rem;
