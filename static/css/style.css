@@ -52,13 +52,9 @@ article.single section,
 .article-list article {
   background-color: #f2f0ec;
   color: #2d2d2d;
-  padding-left: 128px;
   padding-left: 8rem;
-  padding-right: 128px;
   padding-right: 8rem;
-  padding-top: 16px;
   padding-top: 1rem;
-  padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
@@ -72,16 +68,12 @@ article.single section,
 
 header, footer {
   background-color: #393939;
-  padding-top: 16px;
   padding-top: 1rem;
-  padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
 header {
-  margin-top: 16px;
   margin-top: 1rem;
-  margin-bottom: 32px;
   margin-bottom: 2rem;
 }
 
@@ -94,9 +86,7 @@ header {
 }
 
 footer {
-  margin-top: 32px;
   margin-top: 2rem;
-  margin-bottom: 16px;
   margin-bottom: 1rem;
   text-align: center;
   font-size: 0.9em;
@@ -121,16 +111,15 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
-h1 { font-size: 32px; font-size: 2rem }
-h2 { font-size: 24px; font-size: 1.5rem }
-h3 { font-size: 20px; font-size: 1.25rem }
-h4 { font-size: 16px; font-size: 1rem }
-h5 { font-size: 14px; font-size: .875rem }
-h6 { font-size: 12px; font-size: .75rem }
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
 
 pre, code {
   font-family: inherit;
@@ -165,7 +154,6 @@ footer a {
   text-align: center;
   font-size: 3em;
   color: #a09f93;
-  margin-bottom: 64px;
   margin-bottom: 4rem;
 }
 
@@ -217,9 +205,7 @@ footer a {
 
 .homepage section.categories,
 .homepage section.tags {
-  padding-left: 32px;
   padding-left: 2rem;
-  padding-right: 32px;
   padding-right: 2rem;
 }
 
@@ -242,11 +228,8 @@ footer a {
 }
 
 .article-list article {
-  padding-top: 64px;
   padding-top: 4rem;
-  padding-bottom: 64px;
   padding-bottom: 4rem;
-  margin-bottom: 64px;
   margin-bottom: 4rem;
 }
 
@@ -257,7 +240,6 @@ footer a {
 }
 
 .article-list article .meta {
-  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
@@ -309,9 +291,7 @@ article.single h1.headline {
 }
 
 article.single section.body {
-  padding-top: 64px;
   padding-top: 4rem;
-  padding-bottom: 48px;
   padding-bottom: 3rem;
 }
 
@@ -337,11 +317,9 @@ article.single section.body a { color: #d27b53; }
 
 article.single pre {
   margin-top: 0;
-  margin-bottom: 16px;
   margin-bottom: 1rem;
   overflow-x: scroll;
   border-radius: 3px;
-  padding: 32px;
   padding: 2rem;
 }
 
@@ -354,15 +332,10 @@ article.single p code {
 
 article.single figure {
   box-sizing: border-box;
-  max-width: 832px;
   max-width: 52rem;
-  width: 832px;
   width: 52rem;
-  margin-left: -128px;
   margin-left: -8rem;
-  margin-right: -128px;
   margin-right: -8rem;
-  margin-bottom: 16px;
   margin-bottom: 1rem;
   padding: 1em;
   background-color: #393939;
@@ -384,7 +357,6 @@ article.single figure img {
 }
 
 article.single figure figcaption {
-  margin-top: 16px;
   margin-top: 1rem;
 }
 
@@ -405,7 +377,6 @@ article.single table {
 
 article.single th,
 article.single td {
-  padding: 4px 16px;
   padding: .25rem 1rem;
   line-height: inherit;
   border-bottom-width: 1px;
@@ -426,11 +397,8 @@ article.single th {
 article.single td { vertical-align: top }
 
 article.single blockquote {
-  margin-left: 32px;
   margin-left: 2rem;
-  margin-right: 48px;
   margin-right: 3rem;
-  padding-left: 16px;
   padding-left: 1rem;
   border-left: 5px solid #66cccc;
 }
@@ -510,3 +478,5 @@ pre { background: #2d2d2d; color: #f2f0ec }
 .highlight .vg { color: #f2777a } /* Name.Variable.Global */
 .highlight .vi { color: #f2777a } /* Name.Variable.Instance */
 .highlight .il { color: #f99157 } /* Literal.Number.Integer.Long */
+
+/*# sourceMappingURL=style.css.map */

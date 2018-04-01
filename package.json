@@ -1,0 +1,24 @@
+{
+  "name": "hugo-base16-theme",
+  "version": "0.18.04",
+  "description": "Base16 is a simple and colorful theme with the base16 eighties colorscheme",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htdvisser/hugo-base16-theme.git"
+  },
+  "author": "Hylke Visser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htdvisser/hugo-base16-theme/issues"
+  },
+  "homepage": "https://github.com/htdvisser/hugo-base16-theme#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss-preset-env": "^3.4.0"
+  }
+}
