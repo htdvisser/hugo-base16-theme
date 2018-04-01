@@ -334,7 +334,7 @@ article.single p code {
   color: #f2f0ec;
 }
 
-article.single figure {
+article.single figure, article.single div.highlight {
   box-sizing: border-box;
   max-width: 52rem;
   width: 52rem;
@@ -346,7 +346,7 @@ article.single figure {
 }
 
 @media (max-width: 52em) {
-  article.single figure {
+  article.single figure, article.single div.highlight {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
