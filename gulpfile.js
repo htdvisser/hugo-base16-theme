@@ -1,5 +1,6 @@
 const postcss = require('gulp-postcss');
 const gulp = require('gulp');
+const watch = require('gulp-watch');
 const sourcemaps = require('gulp-sourcemaps');
 const env = require('postcss-preset-env');
 
@@ -27,3 +28,5 @@ function build() {
 }
 
 gulp.task('build', build);
+
+gulp.task('watch', () => watch(paths.css.src).pipe(gulp.dest('build')));

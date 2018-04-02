@@ -3,7 +3,8 @@
   "version": "0.18.04",
   "description": "Base16 is a simple and colorful theme with the base16 eighties colorscheme",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.1",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.0",
     "postcss-preset-env": "^3.4.0"
   }
 }
