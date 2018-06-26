@@ -12,17 +12,19 @@
   </div>
 
   {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-  <nav style="text-align: center;">
+  <nav>
     {{ if .Paginator.HasPrev }}
-    <a class="tag" style="margin-left: auto; margin-right: 1%;" href="{{ .Paginator.Prev.URL }}">&lt; Prev</a>
+    <a class="nav-left" href="{{ .Paginator.Prev.URL }}">&lt; Prev</a>
     {{ else }}
-    <a class="tag" style="margin-left: auto; margin-right: 1%; visibility: hidden;" href="">&lt; Prev</a>
+    <a class="nav-hidden">&lt; Prev</a>
     {{ end }}
+
     <span>{{ .Paginator.PageNumber}} / {{ .Paginator.TotalPages }}</span>
+
     {{ if .Paginator.HasNext }}
-    <a class="tag" style="margin-left: 1%; margin-right: auto;" href="{{ .Paginator.Next.URL }}">Next &gt;</a>
+    <a class="nav-right" href="{{ .Paginator.Next.URL }}">Next &gt;</a>
     {{ else }}
-    <a class="tag" style="margin-left: 1%; margin-right: auto; visibility: hidden;" href="">Next &gt;</a>
+    <a class="nav-hidden">Next &gt;</a>
     {{ end }}
   </nav>
   {{ end }}
