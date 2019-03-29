@@ -212,12 +212,32 @@ footer a {
 .homepage .category,
 .homepage .category a,
 .homepage .tag,
-.homepage .tag a {
+.homepage .tag a,
+.homepage .nav-left,
+.homepage .nav-right {
   color: #cc99cc;
 }
 
 .homepage .tag {
   margin-right: 2em;
+}
+
+.homepage nav {
+  text-align: center;
+}
+
+.homepage .nav-left {
+  margin-left: auto;
+  margin-right: 1%;
+}
+
+.homepage .nav-right {
+  margin-left: 1%;
+  margin-right: auto;
+}
+
+.homepage .nav-hidden {
+  visibility: hidden;
 }
 
 /* Post List Layout */
