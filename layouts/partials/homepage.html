@@ -6,10 +6,34 @@
   <h1 class="headline">Recent Posts</h1>
 
   <div class="article-list">
-    {{ range first 3 (where .Data.Pages "Section" "post") }}
+    {{ if isset .Site.Params "paginate" }}
+        {{ .Scratch.Set "paginate" .Site.Params.paginate }}
+    {{ else }}
+        {{ .Scratch.Set "paginate" 3 }}
+    {{ end }}
+    {{ $paginator := .Paginate (where .Data.Pages "Section" "post") (.Scratch.Get "paginate") }}
+    {{ range $paginator.Pages }}
       {{ partial "article-list-item.html" . }}
     {{ end }}
   </div>
+
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav>
+    {{ if $paginator.HasPrev }}
+    <a class="nav-left" href="{{ $paginator.Prev.URL }}">&lt; Prev</a>
+    {{ else }}
+    <a class="nav-hidden">&lt; Prev</a>
+    {{ end }}
+
+    <span>{{ $paginator.PageNumber}} / {{ $paginator.TotalPages }}</span>
+
+    {{ if $paginator.HasNext }}
+    <a class="nav-right" href="{{ $paginator.Next.URL }}">Next &gt;</a>
+    {{ else }}
+    <a class="nav-hidden">Next &gt;</a>
+    {{ end }}
+  </nav>
+  {{ end }}
 
 {{ with .Site.Taxonomies.categories }}
 
