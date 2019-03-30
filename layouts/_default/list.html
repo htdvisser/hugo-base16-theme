@@ -1,8 +1,10 @@
 {{ partial "header.html" . }}
+{{ $paginator := .Paginate (where .Data.Pages "Section" "post") (or .Site.Params.paginate 3) }}
 <main role="main" class="article-list">
   <h1 class="list-title">{{ .Title }}</h1>
-  {{ range .Data.Pages }}
+  {{ range $paginator.Pages }}
     {{ partial "article-list-item.html" . }}
   {{ end }}
 </main>
+{{ partial "paginator.html" $paginator }}
 {{ partial "footer.html" . }}

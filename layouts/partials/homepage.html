@@ -5,11 +5,14 @@
 
   <h1 class="headline">Recent Posts</h1>
 
+  {{ $paginator := .Paginate (where .Data.Pages "Section" "post") (or .Site.Params.paginate 3) }}
   <div class="article-list">
-    {{ range first 3 (where .Data.Pages "Section" "post") }}
+    {{ range $paginator.Pages }}
       {{ partial "article-list-item.html" . }}
     {{ end }}
   </div>
+
+  {{ partial "paginator.html" $paginator }}
 
 {{ with .Site.Taxonomies.categories }}
 

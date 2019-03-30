@@ -275,6 +275,29 @@ footer a {
 
 .article-list article section.summary a { color: var(--base0f); }
 
+/* Pagination */
+
+nav.paginator {
+  text-align: center;
+}
+
+nav.paginator a {
+  color: var(--base0e);
+}
+
+nav.paginator .faded {
+  color: var(--base02);
+}
+
+nav.paginator .nav-left {
+  margin-left: auto;
+  margin-right: 1%;
+}
+
+nav.paginator .nav-right {
+  margin-left: 1%;
+  margin-right: auto;
+}
 
 /* Single Post Layout */
 
