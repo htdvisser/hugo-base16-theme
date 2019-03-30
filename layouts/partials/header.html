@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
 <link rel="alternate" href="{{ "index.xml" | relURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
-<title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+<title>{{ with .Title }}{{.}} - {{ end }}{{ .Site.Title }}</title>
 </head>
 <body>
 
