@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Hugo Base16 Theme</title>
+    <link>https://htdvisser.github.io/hugo-base16-theme/tags/markdown/</link>
+    <description>Recent content in Markdown on Hugo Base16 Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://htdvisser.github.io/hugo-base16-theme/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://htdvisser.github.io/hugo-base16-theme/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://htdvisser.github.io/hugo-base16-theme/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://htdvisser.github.io/hugo-base16-theme/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://htdvisser.github.io/hugo-base16-theme/post/placeholder-text/</guid>
+      <description>&lt;h2 id=&#34;mole-et-vultus-populifer-quaque-primoque-non&#34;&gt;Mole et vultus populifer quaque primoque non&lt;/h2&gt;
+
+&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

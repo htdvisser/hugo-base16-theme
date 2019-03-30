@@ -3,28 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/post/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/post/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/post/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/post/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/post/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/post/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/post/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://htdvisser.github.io/hugo-base16-theme/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/post/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,68 +43,89 @@
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/index/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://htdvisser.github.io/hugo-base16-theme/post/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://htdvisser.github.io/hugo-base16-theme/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://htdvisser.github.io/hugo-base16-theme/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://htdvisser.github.io/hugo-base16-theme/series/themes-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

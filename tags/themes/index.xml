@@ -5,20 +5,20 @@
     <link>https://htdvisser.github.io/hugo-base16-theme/tags/themes/</link>
     <description>Recent content in Themes on Hugo Base16 Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://htdvisser.github.io/hugo-base16-theme/tags/themes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://htdvisser.github.io/hugo-base16-theme/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Markdown Syntax Guide</title>
+      <link>https://htdvisser.github.io/hugo-base16-theme/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://htdvisser.github.io/hugo-base16-theme/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>https://htdvisser.github.io/hugo-base16-theme/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
   </channel>
