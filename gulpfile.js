@@ -12,16 +12,10 @@ const paths = {
 };
 
 function build() {
-  gulp.src(paths.css.src)
+  return gulp.src(paths.css.src)
     .pipe(sourcemaps.init())
     .pipe(postcss([
-      env({
-        browsers: 'last 2 versions',
-        features: {
-          'css-variables': { preserve: false },
-          'mediaqueries-custom-mq': true,
-        },
-      }),
+      env(),
     ]))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(paths.css.dest));
