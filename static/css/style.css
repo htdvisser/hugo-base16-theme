@@ -212,32 +212,12 @@ footer a {
 .homepage .category,
 .homepage .category a,
 .homepage .tag,
-.homepage .tag a,
-.homepage .nav-left,
-.homepage .nav-right {
+.homepage .tag a {
   color: #cc99cc;
 }
 
 .homepage .tag {
   margin-right: 2em;
-}
-
-.homepage nav {
-  text-align: center;
-}
-
-.homepage .nav-left {
-  margin-left: auto;
-  margin-right: 1%;
-}
-
-.homepage .nav-right {
-  margin-left: 1%;
-  margin-right: auto;
-}
-
-.homepage .nav-hidden {
-  visibility: hidden;
 }
 
 /* Post List Layout */
@@ -274,6 +254,29 @@ footer a {
 
 .article-list article section.summary a { color: #d27b53; }
 
+/* Pagination */
+
+nav.paginator {
+  text-align: center;
+}
+
+nav.paginator a {
+  color: #cc99cc;
+}
+
+nav.paginator .faded {
+  color: #515151;
+}
+
+nav.paginator .nav-left {
+  margin-left: auto;
+  margin-right: 1%;
+}
+
+nav.paginator .nav-right {
+  margin-left: 1%;
+  margin-right: auto;
+}
 
 /* Single Post Layout */
 

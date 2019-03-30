@@ -233,32 +233,12 @@ footer a {
 .homepage .category,
 .homepage .category a,
 .homepage .tag,
-.homepage .tag a,
-.homepage .nav-left,
-.homepage .nav-right {
+.homepage .tag a {
   color: var(--base0e);
 }
 
 .homepage .tag {
   margin-right: 2em;
-}
-
-.homepage nav {
-  text-align: center;
-}
-
-.homepage .nav-left {
-  margin-left: auto;
-  margin-right: 1%;
-}
-
-.homepage .nav-right {
-  margin-left: 1%;
-  margin-right: auto;
-}
-
-.homepage .nav-hidden {
-  visibility: hidden;
 }
 
 /* Post List Layout */
@@ -295,6 +275,29 @@ footer a {
 
 .article-list article section.summary a { color: var(--base0f); }
 
+/* Pagination */
+
+nav.paginator {
+  text-align: center;
+}
+
+nav.paginator a {
+  color: var(--base0e);
+}
+
+nav.paginator .faded {
+  color: var(--base02);
+}
+
+nav.paginator .nav-left {
+  margin-left: auto;
+  margin-right: 1%;
+}
+
+nav.paginator .nav-right {
+  margin-left: 1%;
+  margin-right: auto;
+}
 
 /* Single Post Layout */
 
